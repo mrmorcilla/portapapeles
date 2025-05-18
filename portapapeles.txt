@@ -1,1 +1,8 @@
-e em, puede ser el tema es que no estoy para ir. Les puedo mandar un texto que tengo de todo el te
+ response.json())
+        elif github_content != last_github and github_content != clipboard:
+            print("⬇️ Nuevo contenido en GitHub detectado. Copiando al portapapeles local...")
+            pyperclip.copy(github_content)
+            last_clipboard = github_content
+            last_github = github_content
+
+        time.sleep(2)

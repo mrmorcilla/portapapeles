@@ -1,5 +1,1 @@
-:
-                print("✅ Contenido actualizado en GitHub.")
-                last_content = content
-            else:
-                print("❌ Error al subir:", response.json())
+e em, puede ser el tema es que no estoy para ir. Les puedo mandar un texto que tengo de todo el te
